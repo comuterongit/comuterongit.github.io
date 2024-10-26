@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnblockedWebHUB</title>
+    <style>
+        body {
+            background-color: #4B0082;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .search-container {
+            display: flex;
+            align-items: center;
+        }
+        input[type="text"] {
+            padding: 10px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            width: 80%;
+            max-width: 300px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: white;
+            color: #4B0082;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        button:hover {
+            background-color: #e0e0e0;
+        }
+        .body-text {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 1em;
+        }
+        .blog-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: white;
+            color: #4B0082;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .blog-button:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <h1>UnblockedWebHUB</h1>
+    <div class="search-container">
+        <input type="text" id="searchQuery" placeholder="Enter URL...">
+        <button onclick="search()">Go</button>
+    </div>
+    <div class="body-text">
+        Welcome to UnblockedWebHUB, the new and official UnblockedWeb Portal. Search with DuckDuckGo, or visit UnblockedWebNOW, our blog.
+    </div>
+    <button class="blog-button" onclick="window.location.href='https://unblockedwebnow.my.canva.site'">UnblockedWebNOW - Blog</button>
+
+    <script>
+        function search() {
+            var query = document.getElementById('searchQuery').value;
+            var encodedQuery = encodeURIComponent(query);
+            var url = 'https://duckduckgo.com/?q=' + encodedQuery;
+            window.location.href = url;
+        }
+    </script>
+</body>
+</html>
