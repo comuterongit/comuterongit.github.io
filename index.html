@@ -68,7 +68,7 @@
 <body>
     <h1>UnblockedWebHUB</h1>
     <div class="search-container">
-        <input type="text" id="searchQuery" placeholder="Search with DuckDuckGo...">
+        <input type="text" id="searchQuery" placeholder="Enter URL..." onkeyup="handleKey(event)">
         <button onclick="search()">Go</button>
     </div>
     <div class="body-text">
@@ -82,6 +82,12 @@
             var encodedQuery = encodeURIComponent(query);
             var url = 'https://duckduckgo.com/?q=' + encodedQuery;
             window.location.href = url;
+        }
+
+        function handleKey(event) {
+            if (event.key === 'Enter') {
+                search();
+            }
         }
     </script>
 </body>
