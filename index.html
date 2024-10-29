@@ -6,6 +6,21 @@
     <title>UnblockedWebHUB</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <style>
+        @keyframes backgroundFade {
+            0% {
+                background-color: #4B0082; /* Indigo */
+            }
+            33% {
+                background-color: #8A2BE2; /* Blue Violet */
+            }
+            66% {
+                background-color: #9370DB; /* Medium Purple */
+            }
+            100% {
+                background-color: #4B0082; /* Indigo */
+            }
+        }
+
         body {
             background-color: #4B0082;
             color: white;
@@ -17,7 +32,9 @@
             height: 100vh;
             margin: 0;
             text-align: center;
+            animation: backgroundFade 10s ease-in-out infinite;
         }
+
         h1 {
             font-size: 2.5em;
             margin-bottom: 20px;
