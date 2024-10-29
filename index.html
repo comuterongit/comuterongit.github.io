@@ -33,6 +33,7 @@
             margin: 0;
             text-align: center;
             animation: backgroundFade 10s ease-in-out infinite;
+            position: relative; /* Added for positioning the watermark */
         }
 
         h1 {
@@ -85,6 +86,15 @@
         .blog-button:hover, .beta-button:hover {
             background-color: #e0e0e0;
         }
+        /* Watermark Styles */
+        .watermark {
+            position: absolute; /* Position it relative to the body */
+            bottom: 10px; /* 10 pixels from the bottom */
+            right: 10px; /* 10 pixels from the right */
+            font-size: 0.8em; /* Smaller font size */
+            color: rgba(255, 255, 255, 0.5); /* White with transparency */
+            pointer-events: none; /* Make sure it doesn't block clicks */
+        }
     </style>
 </head>
 <body>
@@ -98,6 +108,9 @@
     </div>
     <button class="blog-button" onclick="window.location.href='https://unblockedwebnow.my.canva.site'">UnblockedWebNOW - Blog</button>
     <button class="beta-button" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSf9dgK1kW8ILhjrg0s7iLlxpJwd2Tz7SG-ELUrDp_Kr1yKavA/viewform'">Apply for the Beta</button>
+
+    <!-- Watermark -->
+    <div class="watermark">by Team Comuter</div>
 
     <script>
         function search() {
