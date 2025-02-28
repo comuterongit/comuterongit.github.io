@@ -1,0 +1,1 @@
+All requests are stored insode of a log. We reserve the right to share requests made with 3rd-parties.
