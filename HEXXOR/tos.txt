@@ -1,0 +1,1 @@
+ We reserve the full right have access to any server the bot joins. This means, the bot will make an invite link to store for security reasons. The bot will create roles and may not be misused in any way. All requests are stored insode of a log.
