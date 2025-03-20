@@ -44,12 +44,15 @@ This is the Astronaut user manual. Video guides are not finished yet, and will m
 > [6 - Did we miss anything? Do you need further assistance?](#6%20-%20Did%20we%20miss%20anything?%20Do%20you%20need%20further%20assistance?)
 > 	[6.1 - Video Help - Everything Astronaut](#6.1%20-%20Video%20Help%20-%20Everything%20Astronaut)
 > [100 - Document Error](#100%20-%20Document%20Error)
+
+
 # 1 - Integration
 ## 1.1 - Join Shortcuts Method
 ### 1.1.1 - Installation Links for Join Shortcuts by @gluebyte
-Install these two shortcuts:
+Install these shortcuts:
 
 https://routinehub.co/shortcut/10038/
+
 https://routinehub.co/shortcut/10060/
 ### 1.1.2 - Joining your shortcut
  Make sure you are running on iOS 14 or above.
