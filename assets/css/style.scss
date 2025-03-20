@@ -1,8 +1,5 @@
----
-   ---
-
-   @import "{{ site.theme }}";
-
-   body {
-     font-family: Arial, Helvetica, sans-serif;
-   }
+@import "jekyll-theme-primer"
+body {
+  font-family: $base-font-family;
+  // other styles
+}
