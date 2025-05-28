@@ -1,0 +1,12 @@
+/*General*/
+body{
+	background-color: black;
+	color: #5AA263;
+	font-family: Arial, Helvetica, Sans-Serif;
+}
+/*Classes*/
+.happyPhone{
+	width: 120px;
+	height: auto;
+}
+/*IDs*/
