@@ -1,2 +1,2 @@
-Hello there, welcome to developer messages!
-(May 12 2025)
+UBW will stop working starting from iOS 26. This is Apple's fault, not ours. Thanks for being a part of this.
+(June 12 2025)
