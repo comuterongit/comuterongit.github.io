@@ -1,12 +1,82 @@
-/*General*/
+/*No AI used in this code either lmao except for stackoverflow*/
+
 body{
+	font-family: determination;
+	color: white;
 	background-color: black;
-	color: #5AA263;
-	font-family: Arial, Helvetica, Sans-Serif;
+	text-align: center;
 }
-/*Classes*/
-.happyPhone{
-	width: 120px;
+
+h1{
+	font-weight: 100;
+}
+
+h2{
+	font-weight: 100;
+}
+
+h3{
+	font-weight: 100;
+}
+
+h6{
+	font-weight: 100;
+}
+
+a{
+	color: yellow;
+}
+
+a:hover{
+	color: aqua;
+}
+
+a:visited{
+	color: darkyellow;
+}
+
+@font-face {
+    font-family: 'determination';
+    src: url("assets/determination.otf");
+}
+
+.linkSeperation a {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.paragraph{
+	margin: 0 25% 0 25%;
+	text-align: center;
+}
+
+.wokeComuter{
+	width: 180px;
+	height: auto;
+	border-radius: 90px;
+}
+
+.button{
+	border: solid 4px;
+	padding: 4px;
+	color: white;
+	text-decoration: none;
+}
+
+.button:hover{
+	background-color: white;
+	color: black;
+}
+
+.scarf{
+	width: 160px;
 	height: auto;
 }
-/*IDs*/
+
+.scarfColor{
+	color: #EA33F7;
+}
+
+.yellow{
+	color: yellow;
+}
