@@ -46,7 +46,8 @@ a:visited{
 }
 
 .paragraph{
-	margin: 0 25% 0 25%;
+	max-width: 700px;
+	margin: auto;
 	text-align: center;
 }
 
@@ -61,6 +62,7 @@ a:visited{
 	padding: 4px;
 	color: white;
 	text-decoration: none;
+	display: inline-block;
 }
 
 .button:hover{
