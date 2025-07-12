@@ -65,6 +65,7 @@ b{
 .button{
 	border: solid 4px;
 	padding: 4px;
+	margin: 4px;
 	color: white;
 	text-decoration: none;
 	display: inline-block;
@@ -90,4 +91,16 @@ b{
 
 .happy{
 	color: rgb(0, 255, 0);
+}
+
+.emptyArea {
+  min-height: 200vh;
+}
+
+.notSoEmptyArea{
+	min-height: 25vh;
+}
+
+#other-downloads{
+	margin-bottom: 10%;
 }
