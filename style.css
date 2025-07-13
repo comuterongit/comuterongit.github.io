@@ -40,6 +40,13 @@ b{
 	font-weight: 100;
 }
 
+iframe{
+	border: solid 4px white;
+	border-radius: 20px;
+	width: 50%;
+	height: auto;
+}
+
 @font-face {
     font-family: 'determination';
     src: url("assets/determination.otf");
@@ -99,6 +106,18 @@ b{
 
 .notSoEmptyArea{
 	min-height: 25vh;
+}
+
+.wallpaperPreview{
+	border: solid 4px white;
+	border-radius: 40px;
+	width: 50%;
+	height: auto;
+	transition: all .2s;
+}
+
+.wallpaperPreview:hover{
+	transform: scale(1.05);
 }
 
 #other-downloads{
