@@ -40,13 +40,6 @@ b{
 	font-weight: 100;
 }
 
-iframe{
-	border: solid 4px white;
-	border-radius: 20px;
-	width: 50%;
-	height: auto;
-}
-
 @font-face {
     font-family: 'determination';
     src: url("assets/determination.otf");
