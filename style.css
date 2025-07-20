@@ -118,6 +118,23 @@ iframe{
 	transform: scale(1.05);
 }
 
+.strawPage{
+	border: solid 4px white;
+	padding: 4px;
+	margin: 4px;
+	color: white;
+	background-color: #df001d;
+	text-decoration: none;
+	display: inline-block;
+	transition: all .2s;
+}
+
+.strawPage:hover{
+	border-color: #df001d;
+	color: #df001d;
+	background-color: white;
+}
+
 #other-downloads{
 	margin-bottom: 10%;
 }
