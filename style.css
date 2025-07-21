@@ -81,6 +81,51 @@ iframe{
 	color: black;
 }
 
+.button2{
+	border: solid 4px;
+	padding: 4px;
+	margin: 4px;
+	color: white;
+	text-decoration: none;
+	display: block;
+	max-width: fit-content;
+	margin: auto;
+}
+
+.button2Disabled{
+	border: solid 4px;
+	padding: 4px;
+	margin: 4px;
+	color: grey;
+	text-decoration: none;
+	display: block;
+	max-width: fit-content;
+	margin: auto;
+}
+
+.button2Disabled:hover{
+	color: grey;
+}
+
+.button2:hover{
+	color: yellow;;
+}
+
+.button2yellow{
+	border: solid 4px;
+	padding: 4px;
+	margin: 4px;
+	color: yellow;
+	text-decoration: none;
+	display: block;
+	max-width: fit-content;
+	margin: auto;
+}
+
+.button2yellow:hover{
+	color: aqua;
+}
+
 .scarf{
 	width: 160px;
 	height: auto;
@@ -133,6 +178,15 @@ iframe{
 	border-color: #df001d;
 	color: #df001d;
 	background-color: white;
+}
+
+.installerList{
+	max-width: 900px;
+	margin: auto;
+}
+
+.disabled{
+	color: grey;
 }
 
 #other-downloads{
