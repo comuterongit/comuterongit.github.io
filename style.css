@@ -36,8 +36,25 @@ a:hover{
 	color: aqua;
 }
 
+button{
+	border: solid 4px;
+	padding: 4px;
+	margin: 4px;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	font-family: determination;
+	background-color: black;
+	font-size: 100%;
+}
+
+button:hover{
+	color: yellow;
+}
+
 b{
 	font-weight: 100;
+	color: yellow;
 }
 
 iframe{
@@ -108,7 +125,7 @@ iframe{
 }
 
 .button2:hover{
-	color: yellow;;
+	color: yellow;
 }
 
 .button2yellow{
@@ -187,6 +204,26 @@ iframe{
 
 .disabled{
 	color: grey;
+}
+
+.disabled:hover{
+	color: grey;
+}
+
+.saveButton{
+	border: solid 4px white;
+	padding: 4px;
+	margin: 4px;
+	color: yellow;
+	text-decoration: none;
+	display: inline-block;
+	transition: all .2s;
+}
+
+.saveButton:hover{
+	border-color: black;
+	background-color: yellow;
+	color: black;
 }
 
 #other-downloads{
