@@ -226,6 +226,11 @@ iframe{
 	color: black;
 }
 
+.emoji{
+	width: 20px;
+	height: auto;
+}
+
 #other-downloads{
 	margin-bottom: 10%;
 }
