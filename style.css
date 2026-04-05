@@ -1,236 +1,244 @@
 /*No AI used in this code either lmao except for stackoverflow*/
 
-body{
-	font-family: determination;
-	color: white;
-	background-color: black;
-	text-align: center;
-	font-size: 150%;
+body {
+    font-family: determination;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 150%;
 }
 
-h1{
-	font-weight: 100;
+h1 {
+    font-weight: 100;
 }
 
-h2{
-	font-weight: 100;
+h2 {
+    font-weight: 100;
 }
 
-h3{
-	font-weight: 100;
+h3 {
+    font-weight: 100;
 }
 
-h4{
-	font-weight: 100;
+h4 {
+    font-weight: 100;
 }
 
-h6{
-	font-weight: 100;
+h6 {
+    font-weight: 100;
 }
 
-a{
-	color: yellow;
+a {
+    color: yellow;
 }
 
-a:hover{
-	color: aqua;
+a:hover {
+    color: aqua;
 }
 
-button{
-	border: solid 4px;
-	padding: 4px;
-	margin: 4px;
-	color: white;
-	text-decoration: none;
-	display: inline-block;
-	font-family: determination;
-	background-color: black;
-	font-size: 100%;
+button {
+    border: solid 4px;
+    padding: 4px;
+    margin: 4px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-family: determination;
+    background-color: black;
+    font-size: 100%;
 }
 
-button:hover{
-	color: yellow;
+button:hover {
+    color: yellow;
 }
 
-b{
-	font-weight: 100;
-	color: yellow;
+b {
+    font-weight: 100;
+    color: yellow;
 }
 
-iframe{
-	border: solid 4px white;
-	border-radius: 40px;
+iframe {
+    border: solid 4px white;
+    border-radius: 40px;
 }
 
 @font-face {
-    font-family: 'determination';
+    font-family: "determination";
     src: url("assets/determination.otf");
 }
 
 .linkSeperation a {
-	display: block;
-	margin-bottom: 20px;
+    display: block;
+    margin-bottom: 20px;
 }
 
-.paragraph{
-	max-width: 700px;
-	margin: auto;
-	text-align: center;
+.paragraph {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
 }
 
-.wokeComuter{
-	width: 180px;
-	height: auto;
-	border-radius: 90px;
+.wokeComuter {
+    width: 180px;
+    height: auto;
+    border-radius: 90px;
 }
 
-.button{
-	border: solid 4px;
-	padding: 4px;
-	margin: 4px;
-	color: white;
-	text-decoration: none;
-	display: inline-block;
+.button {
+    border: solid 4px;
+    padding: 4px;
+    margin: 4px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
 }
 
-.button:hover{
-	background-color: white;
-	color: black;
+.button:hover {
+    background-color: white;
+    color: black;
 }
 
-.button2{
-	border: solid 4px;
-	padding: 4px;
-	margin: 4px;
-	color: white;
-	text-decoration: none;
-	display: block;
-	max-width: fit-content;
-	margin: auto;
+.button2 {
+    border: solid 4px;
+    padding: 4px;
+    margin: 4px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    max-width: fit-content;
+    margin: auto;
 }
 
-.button2Disabled{
-	border: solid 4px;
-	padding: 4px;
-	margin: 4px;
-	color: grey;
-	text-decoration: none;
-	display: block;
-	max-width: fit-content;
-	margin: auto;
+.button2Disabled {
+    border: solid 4px;
+    padding: 4px;
+    margin: 4px;
+    color: grey;
+    text-decoration: none;
+    display: block;
+    max-width: fit-content;
+    margin: auto;
 }
 
-.button2Disabled:hover{
-	color: grey;
+.button2Disabled:hover {
+    color: grey;
 }
 
-.button2:hover{
-	color: yellow;
+.button2:hover {
+    color: yellow;
 }
 
-.button2yellow{
-	border: solid 4px;
-	padding: 4px;
-	margin: 4px;
-	color: yellow;
-	text-decoration: none;
-	display: block;
-	max-width: fit-content;
-	margin: auto;
+.button2yellow {
+    border: solid 4px;
+    padding: 4px;
+    margin: 4px;
+    color: yellow;
+    text-decoration: none;
+    display: block;
+    max-width: fit-content;
+    margin: auto;
 }
 
-.button2yellow:hover{
-	color: aqua;
+.button2yellow:hover {
+    color: aqua;
 }
 
-.scarf{
-	width: 160px;
-	height: auto;
+.scarf {
+    width: 160px;
+    height: auto;
 }
 
-.scarfColor{
-	color: #EA33F7;
+.scarfColor {
+    color: #ea33f7;
 }
 
-.yellow{
-	color: yellow;
+.yellow {
+    color: yellow;
 }
 
-.happy{
-	color: rgb(0, 255, 0);
+.happy {
+    color: rgb(0, 255, 0);
 }
 
 .emptyArea {
-  min-height: 200vh;
+    min-height: 200vh;
 }
 
-.notSoEmptyArea{
-	min-height: 25vh;
+.notSoEmptyArea {
+    min-height: 25vh;
 }
 
-.wallpaperPreview{
-	border: solid 4px white;
-	border-radius: 40px;
-	width: 50%;
-	height: auto;
-	transition: all .2s;
+.pinboard {
+    border: solid 4px white;
+    border-radius: 40px;
+    width: 50%;
+    height: auto;
+    transition: all 0.2s;
 }
 
-.wallpaperPreview:hover{
-	transform: scale(1.05);
+.wallpaperPreview {
+    border: solid 4px white;
+    border-radius: 40px;
+    width: 50%;
+    height: auto;
+    transition: all 0.2s;
 }
 
-.strawPage{
-	border: solid 4px white;
-	padding: 4px;
-	margin: 4px;
-	color: white;
-	background-color: #df001d;
-	text-decoration: none;
-	display: inline-block;
-	transition: all .2s;
+.wallpaperPreview:hover {
+    transform: scale(1.05);
 }
 
-.strawPage:hover{
-	border-color: #df001d;
-	color: #df001d;
-	background-color: white;
+.strawPage {
+    border: solid 4px white;
+    padding: 4px;
+    margin: 4px;
+    color: white;
+    background-color: #df001d;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s;
 }
 
-.installerList{
-	max-width: 900px;
-	margin: auto;
+.strawPage:hover {
+    border-color: #df001d;
+    color: #df001d;
+    background-color: white;
 }
 
-.disabled{
-	color: grey;
+.installerList {
+    max-width: 900px;
+    margin: auto;
 }
 
-.disabled:hover{
-	color: grey;
+.disabled {
+    color: grey;
 }
 
-.saveButton{
-	border: solid 4px white;
-	padding: 4px;
-	margin: 4px;
-	color: yellow;
-	text-decoration: none;
-	display: inline-block;
-	transition: all .2s;
+.disabled:hover {
+    color: grey;
 }
 
-.saveButton:hover{
-	border-color: black;
-	background-color: yellow;
-	color: black;
+.saveButton {
+    border: solid 4px white;
+    padding: 4px;
+    margin: 4px;
+    color: yellow;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s;
 }
 
-.emoji{
-	width: 20px;
-	height: auto;
+.saveButton:hover {
+    border-color: black;
+    background-color: yellow;
+    color: black;
 }
 
-#other-downloads{
-	margin-bottom: 10%;
+.emoji {
+    width: 20px;
+    height: auto;
+}
+
+#other-downloads {
+    margin-bottom: 10%;
 }
