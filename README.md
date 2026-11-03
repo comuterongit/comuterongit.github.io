@@ -1,22 +1,28 @@
-# 🌐 Comuter's website
+<a id="-comuters-website"></a>
 
-The source for [comuter.xyz](https://comuter.xyz/), a personal website with links, side projects, pinboards, and downloads.
+# 🌐 Comuter's website ✨🏠
 
-## 🚀 Preview locally
+🌟 The source for [comuter.xyz](https://comuter.xyz/), a personal website with links 🔗, side projects 🛠️, pinboards 📌, and downloads 📥.
 
-Serve the repository root with a static HTTP server so links starting with `/` resolve correctly:
+<a id="-preview-locally"></a>
+
+## 🚀 Preview locally 💻
+
+✨ Serve the repository root with a static HTTP server so links starting with `/` resolve correctly:
 
 ```sh
 python -m http.server 8000
 ```
 
-Open `http://localhost:8000` in your browser.
+🌐 Open `http://localhost:8000` in your browser.
 
-## 🗂️ Project files
+<a id="️-project-files"></a>
 
-- `index.html`: home page.
-- `style.css` and `script.js`: shared presentation and behavior.
-- `more-stuff/`: side projects, pinboards, wallpapers, and save files.
-- `happy_phone/`: phone notifications page.
-- `404.html`: missing-page screen.
-- `img/` and `assets/`: images and fonts.
+## 🗂️ Project files 🧩
+
+- 🏠 `index.html`: home page.
+- 🎨 `style.css` and `script.js`: shared presentation and behavior ⚙️.
+- 🗂️ `more-stuff/`: side projects 🛠️, pinboards 📌, wallpapers 🖼️, and save files 💾.
+- 📱 `happy_phone/`: phone notifications page 🔔.
+- 🔎 `404.html`: missing-page screen.
+- 🖼️ `img/` and `assets/`: images and fonts 🔤.
